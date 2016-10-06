@@ -3,7 +3,7 @@
         "build": {
             "macos": [
                 "-Xswiftc",
-                "-I/usr/local/include/graphqlparser/c",
+                "-I/usr/local/include/graphqlparser",
                 "-Xlinker",
                 "-L/usr/local/lib"
             ],
@@ -14,7 +14,7 @@
         "test": {
             "macos": [
                 "-Xswiftc",
-                "-I/usr/local/include/graphqlparser/c",
+                "-I/usr/local/include/graphqlparser",
                 "-Xlinker",
                 "-L/usr/local/lib"
             ],
