@@ -1,0 +1,26 @@
+{
+    "flags": {
+        "build": {
+            "macos": [
+                "-Xswiftc",
+                "-I/usr/local/include/graphqlparser",
+                "-Xlinker",
+                "-L/usr/local/lib"
+            ],
+            "linux": [
+                "-Xswiftc"
+            ]
+        },
+        "test": {
+            "macos": [
+                "-Xswiftc",
+                "-I/usr/local/include/graphqlparser",
+                "-Xlinker",
+                "-L/usr/local/lib"
+            ],
+            "linux": [
+                "-Xswiftc"
+            ]
+        }
+    }
+}
